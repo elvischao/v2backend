@@ -23,13 +23,13 @@ you may want to see docs, all the things as same as the official docs except ins
 [V2ray installation](https://www.v2ray.com/en/welcome/install.html)
 
 ```
-curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plugin/master/install-release.sh | sudo bash
+curl -L -s https://raw.githubusercontent.com/elvischao/v2ray-ssrpanel-plugin/master/install-release.sh | sudo bash
 ```
 
 #### Uninstall
 
 ```
-curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plugin/master/uninstall.sh | sudo bash
+curl -L -s https://raw.githubusercontent.com/elvischao/v2ray-ssrpanel-plugin/master/uninstall.sh | sudo bash
 ```
 
 ### V2ray Configuration demo
@@ -105,8 +105,8 @@ curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plu
       "host": "127.0.0.1",
       "port": 3306,
       "user": "root",
-      "password": "ssrpanel",
-      "dbname": "ssrpanel"
+      "password": "your_pwd",
+      "dbname": "demo_db"
     }
   }
 
@@ -117,14 +117,13 @@ curl -L -s https://raw.githubusercontent.com/ColetteContreras/v2ray-ssrpanel-plu
 
 ### Contributing
 
-Read [WiKi](https://github.com/ColetteContreras/v2ray-ssrpanel-plugin/wiki) carefully before submitting issues.
+Read [WiKi](https://github.com/elvischao/v2ray-ssrpanel-plugin/wiki) carefully before submitting issues.
 
-- Test and [report bugs](https://github.com/ColetteContreras/v2ray-ssrpanel-plugin/issues)
-- Share your needs/experiences in [github issues](https://github.com/ColetteContreras/v2ray-ssrpanel-plugin/issues)
+- Test and [report bugs](https://github.com/elvischao/v2ray-ssrpanel-plugin/issues)
+- Share your needs/experiences in [github issues](https://github.com/elvischao/v2ray-ssrpanel-plugin/issues)
 - Enhance documentation
 - Contribute code by sending PR
 
 ### References
 
 - [V2ray](https://github.com/v2ray/v2ray-core)
-- [SSRPanel](https://github.com/ssrpanel/SSRPanel)
