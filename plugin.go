@@ -14,7 +14,7 @@ func init() {
 		if err != nil {
 			fatal(err)
 		}
-		newError("v0.4.0 started").AtWarning().WriteToLog()
+		newError("v0.5.0 started").AtWarning().WriteToLog()
 	}()
 }
 
@@ -62,7 +62,7 @@ func newErrorf(format string, a ...interface{}) *errors.Error {
 }
 
 func newError(values ...interface{}) *errors.Error {
-	values = append([]interface{}{"SSRPanelPlugin: "}, values...)
+	values = append([]interface{}{"VNetPanelPlugin: "}, values...)
 	return errors.New(values...)
 }
 
